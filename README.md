@@ -1,4 +1,6 @@
 
 Language used: Java
-#Software required: JDK
-#Ide: Intellij idea
+
+Software required: JDK
+
+Ide: Intellij idea
