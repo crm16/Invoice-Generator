@@ -28,6 +28,6 @@ public class invoice_generator {
         System.out.println("Subtotal [without tax]                     INR. " +total);
         float tax = total * (taxPercentage/100);
         float taxTotal = total + tax;
-        System.out.println("Subtotal [with tax of " + taxPercentage + "%]               INR. " +taxTotal);
+        System.out.println("Net Payable tax [with tax of " + taxPercentage + "%]               INR. " +taxTotal);
     }
 }
