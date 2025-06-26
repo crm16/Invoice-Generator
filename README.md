@@ -1,6 +1,7 @@
+# Receipt_generator
 
 Language used: Java
 
-Software required: JDK
+Development tool: JDK 24.0.1
 
-Ide: Intellij idea
+Ide: Intellij IDEA
