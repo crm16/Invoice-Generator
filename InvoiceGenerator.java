@@ -33,7 +33,7 @@ public class InvoiceGenerator {
         System.out.println("Subtotal [without tax]                     INR. " + total);
         float tax = total * (taxPercentage/100);
         float taxTotal = total + tax;
-        System.out.println("Tax @"+ taxPercentage +"%                                  INR. " + tax);
+        System.out.println("Net Payable Amount                         INR. " + taxTotal);
         System.out.println("---------------------------------------------------------------------------");
         System.out.println("Net Payable Amount                         INR. " + taxTotal);
         System.out.println("Applicable Discount                        INR. " +discount);
