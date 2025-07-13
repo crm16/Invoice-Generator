@@ -36,7 +36,7 @@ public class InvoiceGenerator {
         System.out.println("Tax @"+ taxPercentage +"%                                 INR. " + tax);
         System.out.println("---------------------------------------------------------------------------");
         System.out.println("Net Payable Amount                         INR. " + taxTotal);
-        System.out.println("Applicable Discount                        INR. " +discount);
+        System.out.println("Applicable Discount                        INR. " + discount);
         System.out.println("---------------------------------------------------------------------------");
         float discountPrice = taxTotal - discount;
         System.out.println("Adjusted Payable Amount                    INR. " + discountPrice);
