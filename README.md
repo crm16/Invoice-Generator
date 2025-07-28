@@ -33,20 +33,21 @@ A beginner-friendly, console-based invoice generator developed in Java that take
 
 ### How to Run
 
-1. Clone this repository or download the `InvoiceGenerator.java` file.
+1. Clone this repository or download the `InvoiceGenerator.java` file.  
+
    ```bash
-   git clone https://github.com/crm16/Invoice-Generator.git
-2. Open your terminal or IDE.
-3. Compile the program:
+   git clone https://github.com/crm16/Invoice-Generator.git  
+3. Open your terminal or IDE.
+4. Compile the program:
    ```bash
    javac InvoiceGenerator.java  
-4. Run the program:
+5. Run the program:
    ```bash
    java InvoiceGenerator
 
 ---
 
-## 📷 Sample Output and output  
+## 📷 Sample Output and Input  
 
 ### Sample Input:  
 
