@@ -1,4 +1,4 @@
-# 🧾 Invoice Generator (Java)
+# 🧾 Invoice Generator 
 
 A beginner-friendly, console-based invoice generator developed in Java that takes item details and produces a professionally formatted invoice. Perfect for demonstrating foundational skills in arrays, input/output formatting, tax and discount logic, and time-stamping.
 
@@ -19,9 +19,9 @@ A beginner-friendly, console-based invoice generator developed in Java that take
 
 - **Java** (JDK 24.0.2)
 - **Scanner** class for input handling
-- Console-based input/output
+- **Console-based** input/output
 - `Scanner`, `Date`, and formatted printing (`printf`)
-- **Formatted output** using `printf` for professional presentation
+- **Formatted output** using `printf` for professional presentation  
 
 ---
 
@@ -43,26 +43,26 @@ A beginner-friendly, console-based invoice generator developed in Java that take
    javac InvoiceGenerator.java  
 5. Run the program:
    ```bash
-   java InvoiceGenerator
+   java InvoiceGenerator  
 
 ---
 
-## 📷 Sample Output and Input  
+## 📷 Sample Input and Output
 
 ### Sample Input:  
 
-Enter number of items: 2  
+    Enter number of items: 2  
 
-Enter name of item 1: Pen  
-Enter unit price of Pen: 100  
-Enter quantity of Pen: 4  
+    Enter name of item 1: Pen  
+    Enter unit price of Pen: 100  
+    Enter quantity of Pen: 4  
 
-Enter name of item 2: Book  
-Enter unit price of Book: 750  
-Enter quantity of Book: 2  
+    Enter name of item 2: Book  
+    Enter unit price of Book: 750  
+    Enter quantity of Book: 2  
 
-Enter amount of tax [in %]: 18  
-Enter amount of discount [in %]: 2  
+    Enter amount of tax [in %]: 18  
+    Enter amount of discount [in %]: 2  
 
 ### Sample Output:
     
@@ -84,9 +84,51 @@ Enter amount of discount [in %]: 2
     ----------------------------------------------------------------------------
 
     --------------NOTE--------------
-    ** Prices are in INR. **
+        ** Prices are in INR. **
     --------------------------------
 
-                           Generated on: Mon Jul 28 20:40:53 IST 2025
+                              Generated on: Mon Jul 28 20:40:53 IST 2025
     ============================================================================
-##
+
+---
+
+## 📂 File Structure
+<pre>
+Invoice-Generator/  
+├── InvoiceGenerator.java  
+└── README.md  
+</pre>  
+
+---
+
+## 💡 Use Cases
+- Personal billing simulations
+- Academic projects (Java input/output formatting)
+- Training beginners
+
+---
+
+## 📌 Future Enhancements
+
+- Add company name/logo as optional header
+- Export invoice to `.txt` or `.pdf`
+- Integrate date formatting (`SimpleDateFormat`)
+- GUI version using JavaFX or Swing
+
+---
+
+## 🧑‍💻 Author
+
+Created by [**CHANDRARIT**](https://github.com/crm16)  
+B.Tech in Computer Science,  
+Netaji Subhash Engineering College  
+
+---
+
+## 📄 License
+This project is open-source.
+
+---
+
+## 📬 Feedback
+Questions or suggestions? Feel free to connect or fork this repo and build on it!
