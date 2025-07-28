@@ -47,6 +47,15 @@ A beginner-friendly, console-based invoice generator developed in Java that take
 
 ---
 
+## 📂 File Structure
+<pre>
+Invoice-Generator/  
+├── InvoiceGenerator.java  
+└── README.md  
+</pre>  
+
+---
+
 ## 📷 Sample Input and Output
 
 ### Sample Input:  
@@ -89,15 +98,6 @@ A beginner-friendly, console-based invoice generator developed in Java that take
 
                               Generated on: Mon Jul 28 20:40:53 IST 2025
     ============================================================================
-
----
-
-## 📂 File Structure
-<pre>
-Invoice-Generator/  
-├── InvoiceGenerator.java  
-└── README.md  
-</pre>  
 
 ---
 
